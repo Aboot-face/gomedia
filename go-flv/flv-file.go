@@ -5,7 +5,7 @@ import (
     "errors"
     "io"
 
-    "github.com/yapingcat/gomedia/go-codec"
+    "github.com/Aboot-face/gomedia/go-codec"
 )
 
 //  FLV File

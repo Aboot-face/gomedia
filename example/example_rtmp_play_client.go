@@ -7,8 +7,8 @@ import (
     "net/url"
     "os"
 
-    "github.com/yapingcat/gomedia/go-codec"
-    "github.com/yapingcat/gomedia/go-rtmp"
+    "github.com/Aboot-face/gomedia/go-codec"
+    "github.com/Aboot-face/gomedia/go-rtmp"
 )
 
 var rtmpUrl = flag.String("url", "rtmp://127.0.0.1/live/test", "play rtmp url")

@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/yapingcat/gomedia/go-codec"
-	"github.com/yapingcat/gomedia/go-flv"
+	"github.com/Aboot-face/gomedia/go-codec"
+	"github.com/Aboot-face/gomedia/go-flv"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
     "io"
     "os"
 
-    "github.com/yapingcat/gomedia/go-flv"
-    "github.com/yapingcat/gomedia/go-mp4"
+    "github.com/Aboot-face/gomedia/go-flv"
+    "github.com/Aboot-face/gomedia/go-mp4"
 )
 
 func main() {

@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yapingcat/gomedia/go-codec"
-	"github.com/yapingcat/gomedia/go-flv"
-	"github.com/yapingcat/gomedia/go-mp4"
+	"github.com/Aboot-face/gomedia/go-codec"
+	"github.com/Aboot-face/gomedia/go-flv"
+	"github.com/Aboot-face/gomedia/go-mp4"
 )
 
 type hlsSegment struct {

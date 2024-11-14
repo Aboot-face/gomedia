@@ -5,7 +5,7 @@ import (
     "errors"
     "fmt"
 
-    "github.com/yapingcat/gomedia/go-codec"
+    "github.com/Aboot-face/gomedia/go-codec"
 )
 
 //RFC3640

@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/yapingcat/gomedia/go-codec"
+	"github.com/Aboot-face/gomedia/go-codec"
 )
 
 func TestDemuxer_Input(t *testing.T) {

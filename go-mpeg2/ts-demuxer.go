@@ -4,7 +4,7 @@ import (
     "errors"
     "io"
 
-    "github.com/yapingcat/gomedia/go-codec"
+    "github.com/Aboot-face/gomedia/go-codec"
 )
 
 type pakcet_t struct {

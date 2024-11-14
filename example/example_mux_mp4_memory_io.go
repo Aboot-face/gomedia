@@ -8,8 +8,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/yapingcat/gomedia/go-mp4"
-	"github.com/yapingcat/gomedia/go-mpeg2"
+	"github.com/Aboot-face/gomedia/go-mp4"
+	"github.com/Aboot-face/gomedia/go-mpeg2"
 )
 
 type cacheWriterSeeker struct {

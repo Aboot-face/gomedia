@@ -5,10 +5,10 @@ import (
     "math/rand"
     "time"
 
-    "github.com/yapingcat/gomedia/go-codec"
-    "github.com/yapingcat/gomedia/go-rtsp/rtcp"
-    "github.com/yapingcat/gomedia/go-rtsp/rtp"
-    "github.com/yapingcat/gomedia/go-rtsp/sdp"
+    "github.com/Aboot-face/gomedia/go-codec"
+    "github.com/Aboot-face/gomedia/go-rtsp/rtcp"
+    "github.com/Aboot-face/gomedia/go-rtsp/rtp"
+    "github.com/Aboot-face/gomedia/go-rtsp/sdp"
 )
 
 func init() {

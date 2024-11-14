@@ -1,6 +1,6 @@
 package rtsp
 
-import "github.com/yapingcat/gomedia/go-rtsp/sdp"
+import "github.com/Aboot-face/gomedia/go-rtsp/sdp"
 
 type ClientHandle interface {
     HandleOption(cli *RtspClient, res RtspResponse, public []string) error

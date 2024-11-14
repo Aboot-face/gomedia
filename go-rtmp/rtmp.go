@@ -1,7 +1,7 @@
 package rtmp
 
 import (
-	"github.com/yapingcat/gomedia/go-codec"
+	"github.com/Aboot-face/gomedia/go-codec"
 )
 
 const (

@@ -8,10 +8,10 @@ import (
     "sync"
     "time"
 
-    "github.com/yapingcat/gomedia/go-codec"
-    "github.com/yapingcat/gomedia/go-flv"
-    "github.com/yapingcat/gomedia/go-rtsp"
-    "github.com/yapingcat/gomedia/go-rtsp/sdp"
+    "github.com/Aboot-face/gomedia/go-codec"
+    "github.com/Aboot-face/gomedia/go-flv"
+    "github.com/Aboot-face/gomedia/go-rtsp"
+    "github.com/Aboot-face/gomedia/go-rtsp/sdp"
 )
 
 var sendError error

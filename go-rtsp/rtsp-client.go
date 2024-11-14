@@ -11,7 +11,7 @@ import (
     "sync/atomic"
     "time"
 
-    "github.com/yapingcat/gomedia/go-rtsp/sdp"
+    "github.com/Aboot-face/gomedia/go-rtsp/sdp"
 )
 
 // The client can assume the following states:

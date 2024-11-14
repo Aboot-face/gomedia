@@ -1,6 +1,6 @@
 package flv
 
-import "github.com/yapingcat/gomedia/go-codec"
+import "github.com/Aboot-face/gomedia/go-codec"
 
 type FLVSAMPLEINDEX int
 

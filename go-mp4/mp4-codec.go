@@ -1,7 +1,7 @@
 package mp4
 
 import (
-    "github.com/yapingcat/gomedia/go-codec"
+    "github.com/Aboot-face/gomedia/go-codec"
 )
 
 type MP4_CODEC_TYPE int
