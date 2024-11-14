@@ -26,13 +26,13 @@ const (
 	H264_NAL_SLICE_C
 	H264_NAL_I_SLICE
 	H264_NAL_SEI
+        H264_NAL_SPS
+        H264_NAL_PPS
 	H264_NAL_AUD
 )
 
 const (
     H264_NAL_IDR_SLICE = 5
-    H264_NAL_SPS       = 7
-    H264_NAL_PPS       = 8
 )
 
 type H265_NAL_TYPE int
