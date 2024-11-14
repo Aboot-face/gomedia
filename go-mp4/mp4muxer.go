@@ -161,9 +161,9 @@ func (muxer *Movmuxer) addTrack(cid MP4_CODEC_TYPE, options ...TrackOption) uint
     return track.trackId
 }
 
-func (muxer *Movmuxer) Write(track uint32, data []byte, pts uint64, dts uint64) error {
+func (muxer *Movmuxer) Write(track uint32, data []byte, pts uint64, dts uint64, isKey bool) error {
     mp4track := muxer.tracks[track]
-    err := mp4track.writeSample(data, pts, dts)
+    err := mp4track.writeSample(data, pts, dts, isKey)
     if err != nil {
         return err
     }
