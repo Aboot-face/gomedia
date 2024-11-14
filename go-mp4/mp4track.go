@@ -138,7 +138,7 @@ type mp4track struct {
 func newmp4track(cid MP4_CODEC_TYPE, writer io.WriteSeeker) *mp4track {
 	track := &mp4track{
 		cid:        cid,
-		timescale:  1000,
+		timescale:  90000,
 		stbltable:  nil,
 		samplelist: make([]sampleEntry, 0),
 		lastSample: &sampleCache{
